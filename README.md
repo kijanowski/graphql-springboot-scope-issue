@@ -14,19 +14,6 @@ Sample queries to be run:
 
 ```
 {
-  animals(id: 0) {
-    name
-    color
-    countryIds
-    countries {
-      name
-    }
-  }
-}
-```
-
-```
-{
   animals {
     name
     color
